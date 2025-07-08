@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практическое задание №4</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="task4.css">
+</head>
+
+<body>
+    <header>
+        <button class="burger-menu-btn">
+
+        </button>
+        <a class="logo" href="index.html">
+            HEAVEN
+        </a>
+        <nav>
+            <a href="#about">Информация о нас</a>
+            <a href="#events">События</a>
+            <a href="#contact-us">Контакты</a>
+            <button class="book-btn">Бронировать</button>
+        </nav>
+        <div class="lang">
+            <img src="lang.svg" alt="">
+            РУС
+        </div>
+
+    </header>
+
+
+    <main>
+        <section class="hero">
+            <div class="hero-search">
+                <div class="hero-hotel" style="background: #7B7B7B;">
+                    <h4>Количество гостей</h4>
+                    <select name="" id="">
+                        <option value="">взрослые</option>
+                    </select>
+                </div>
+                <div class="hero-arrival" style="background: #504F4F;">
+                    <h4>Начало торжества</h4>
+                    <select name="" id="">
+                        <option value="">20.06.2023</option>
+                    </select>
+                </div>
+                <div class="hero-departure" style="background: #303030;">
+                    <h4>Окончание торжества</h4>
+                    <select name="" id="">
+                        <option value="">21.06.2023</option>
+                    </select>
+                </div>
+                <button>Book</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Информация о нас</h2>
+            <p>Ищите место для Вашей свадьбы? Тогда, Вам к нам! Уютное место для Вашего торжества. Берег реки Комелы, сосны, камерный зал и наивкуснейшая северная кухня от нашего шеф-повара точно понравятся всем гостям на торжестве. 
+            </p>
+            <p>
+              При бронировании до 25 человек возможно размещение всех гостей в номерах на территории комплекса.  
+            </p>
+            <p>
+                Можете привезти свои фрукты. Нет пробкового сбора. Вместительный холодильник для кондитера. При желании можно заказать кейтеринг от наших Друзей от команды "Все свои".
+            </p>
+        </section>
+
+        <section id="events" class="events">
+            <h2>Ближайшие мероприятия</h2>
+            <div class="event-cards">
+                <figure class="event-card">
+                    <img src="chees.png" alt="">
+                    <figcaption>
+                        <h4>Сырная дегустация</h4>
+                        <p>Крафтовые сыры от наших друзей из сыроварни Липин Бор</p>
+                    </figcaption>
+                    <div class="event-card-date">
+                        <span class="event-card-number">28</span>
+                        <span class="event-card-month">июня</span>
+                    </div>
+                </figure>
+                <figure class="event-card">
+                    <img src="meat.jpg" alt="">
+                    <figcaption>
+                        <h4>Мясная дегустация</h4>
+                        <p>Дегустация разных видов вяленного мяса от наших соседей. Ферма "Счастливая Буренка"</p>
+                    </figcaption>
+                    <div class="event-card-date">
+                        <span class="event-card-number">5</span>
+                        <span class="event-card-month">июля</span>
+                    </div>
+                </figure>
+                <figure class="event-card">
+                    <img src="chees.png" alt="">
+                    <figcaption>
+                        <h4>Сырная дегустация</h4>
+                        <p>Крафтовые сыры от наших друзей из сыроварни Липин Бор</p>
+                    </figcaption>
+                    <div class="event-card-date">
+                        <span class="event-card-number">12</span>
+                        <span class="event-card-month">июля</span>
+                    </div>
+                </figure>
+            </div>
+            <button>Забронируй</button>
+        </section>
+
+        <section id="contact-us" class="contact-us">
+            <h2>Оставь свои данные, что бы мы обсудили все подробности мероприятия</h2>
+            <form action="" class="contact-form">
+                <div class="contact-form-fields">
+                    <input type="text" placeholder="Имя*" required>
+                    <input type="text" placeholder="Фамилия*" required>
+                    <input type="tel" placeholder="Телефон">
+                    <input type="email" placeholder="email*" required>
+                </div>
+                <textarea name="" id="" placeholder="message*"></textarea>
+                <button>Отправить</button>
+            </form>
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <section class="footer-info">
+            <h2>HEAVEN</h2>
+            <div class="footer-links">
+                <ul class="footer-links-list">
+                    <h4>Информация</h4>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <ul class="footer-links-list">
+                    <h4>Новости</h4>
+                    <li><a href="#">Пресса о нас</a></li>
+                    <li><a href="#">Календарь мероприятий</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-additional">
+                <div class="footer-social-media">
+                    <a href="#"><img src="Icon.png" alt=""></a>
+                    <a href="#"><img src="Icon-1.png" alt=""></a>
+                    <a href="#"><img src="Icon-2.png" alt=""></a>
+                    <a href="#"><img src="Icon-3.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-additional-policy">
+                <a href="">Правовая информация</a>
+                <a href="">Политика конфиденциальности</a>
+
+            </div>
+            <p class="footer-rights">HEAVEN 2020 -2025. Все права защищены.</p>
+        </section>
+    </footer>
+
+
+</body>
+
+</html>
